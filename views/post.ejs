@@ -10,28 +10,18 @@
             padding-top: 20px;
             padding-bottom: 20px;
         }
-
-        .jumbotron {
-            margin-top: 10px;
-        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <%- include('partials/navbar') %>
-        <div class="jumbotron">
-            <h1>All about Node</h1>
-            <p class="lead">Check out our articles below!</p>
-        </div>
+        <div>
+            <h2>POST_TITLE</h2>
+            <p>by <a href="#">POST_AUTHOR</a></p>
 
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="list-group">
-
-                    LIST_OF_POSTS
-                </div>
-            </div>
+            <p>POST_CONTENT</p>
+            <hr>
         </div>
         <%- include('partials/footer') %>
     </div>
